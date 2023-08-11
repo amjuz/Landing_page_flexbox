@@ -1,0 +1,74 @@
+.container{
+    display: flex;    
+    flex-direction: column;
+    height: 1000px;
+    
+}
+
+body {
+    margin: 0;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    gap: 10rem;
+    background-color: #1f2937;
+}
+.logo {
+    width:50%;
+    justify-content: space-around;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.headerlink {
+    display: flex;
+    gap:4rem;
+    
+}
+.header .headerlink h4 {
+    font-family: hero secondary;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header {
+    display: flex;
+    color: #fff;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    padding: 15px 0;
+    color: #fff;
+    
+}
+
+.content .leftside {
+    width: 20%;
+    
+}
+
+.content .leftside div h1 {
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8
+    
+    
+}
+.content .leftside div .button{
+    background-color:blue ;
+}
+
+.content img {
+    height: 250px;
+    width: 500px;
+
+}
+
+
