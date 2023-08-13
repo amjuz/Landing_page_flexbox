@@ -4,7 +4,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
 }
 
 .one {
@@ -17,7 +16,6 @@ body {
 }
 .one .header  {
     display: flex;
-    border: 2px solid green;
     height: 100px;
     margin: 0;
     padding: 4px;
@@ -27,7 +25,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border :2px solid grey;
     flex-basis: 50%;
 }
 .one .header .left .logo h2{
@@ -41,7 +38,6 @@ body {
     justify-content:center;
     align-items: center;
     gap: 1rem;
-    border: 2px solid grey;
     flex-basis: 50%;
     width:10px;
 }
@@ -50,7 +46,6 @@ body {
 }
 .one .content {
     display: flex;
-    border: 2px solid blue;
     height: 600px;
     justify-content: center;
     align-items: center;
@@ -62,12 +57,8 @@ body {
     align-items: center;
     flex-direction: column;
     color: #fff;
-    border: 2px solid grey;
     height:300px;
     width: 650px;
-}
-.one .content .left * {
-    border: 2px solid green;
 }
 .one .content .left h1 {
     font-size: 48px;
@@ -78,10 +69,16 @@ body {
 }
 .one .content .left button {
     background-color: #3882f6;
-    
+    color: #fff;
+    border-radius: 5px;
+    border: 3px solid white;
+    padding: 10px;
+    width: 100px;
+    height: fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;    
 }
 .one .content .right img{
-    border: 2px solid grey;
     height: 300px;
     width: 650px;
 }
@@ -89,14 +86,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 500px;
-    border: 2px solid red;
 }
 .two .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
     height: 100px;
+    margin-top: 20px;
     
 }
 .two .header h1 {
@@ -110,7 +106,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    border: 2px solid brown;
     height: 400px;
     
 }
@@ -118,9 +113,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid grey;
     width: 250px;
     height: 300px;
+    gap: 1rem;
 }
 .two .tail .part .box{
     border: 4px solid #3882f6;
@@ -133,14 +128,12 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .two .tail .part .text  p{
     
     width: 60%;
     margin-top: 0;
-    
-    border: 2px solid black;
     text-align: center;
     
 }
@@ -149,12 +142,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 300px;
-    border: 3px solid green;
 }
 .three .bigbox {
     padding: 3px;
     gap: 1rem;
-    border: 2px solid gray;
     height: fit-content;
     width: 1000px;
 }
@@ -163,12 +154,10 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
-    border: 2px solid gray;
     height: fit-content;
     
 }
 .three .bigbox .bottom{
-    border: 2px solid gray;
     height: 10%;
     font-weight:1000 ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -181,12 +170,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 10px solid firebrick;
 }
 .four .bluebox {
     display: flex;
     background-color: #3882f6;
-    border: 3px solid gray;
+    border-radius: 15px;
     width: 1200px;
     height: 100px;
 }
@@ -194,9 +182,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #fff;
-    border: 3px solid black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    gap:5px;
     width: 80%;
     
 }
@@ -204,13 +191,11 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    border: 3px solid blue;
     height: 50%;
     font-weight: 800;
 }
 .four .bluebox .left .top div{
     margin-right: 250px;
-    border: 3px solid yellow;
 }
 
 
@@ -218,16 +203,11 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    border: 3px solid blue;
     height: 50%;
-}
-.four .bluebox .left .bottom div {
-    border: 3px solid yellow;
 }
 .four .bluebox .right {
     display: flex;
     align-items: center;
-    border: 3px solid gray;
     width: 20%;
     
 }
@@ -243,7 +223,10 @@ body {
     color: white;
 }
 .footer {
-    height:150px;
-    
-    border: 13px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1f2937;
+    height:50px;
 }
